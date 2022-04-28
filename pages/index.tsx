@@ -4,15 +4,9 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Photoshoot from "../components/Photoshoot";
 import styles from "../styles/Home.module.css";
+import { banners } from "../components/more";
 
 const Home: NextPage = () => {
-  const images = [
-    "ban1.jpeg",
-    "ban2.jpeg",
-    "ban3.jpeg",
-    "ban4.jpeg",
-    "ban5.jpeg",
-  ];
   return (
     <div className={styles.container}>
       <Head>
@@ -38,11 +32,11 @@ const Home: NextPage = () => {
           </a>
         </p>
 
-        <Photoshoot details={{ name: "Graphic Design", images }} />
+        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
 
-        <Photoshoot details={{ name: "Graphic Design", images }} />
+        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
 
-        <Photoshoot details={{ name: "Graphic Design", images }} />
+        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
       </main>
 
       <footer className={styles.footer}>
