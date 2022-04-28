@@ -21,19 +21,15 @@ const Header = () => {
       <nav className={styles.menu}>
         <ul>
           <li>
-            <a href="#home">Home</a>
-          </li>
-
-          <li>
-            <a href="#photo">Photo</a>
-          </li>
-
-          <li>
             <a href="#design">Design</a>
           </li>
 
           <li>
-            <a href="#video">Video</a>
+            <a href="#photography">Photography</a>
+          </li>
+
+          <li>
+            <a href="#photography">Videography</a>
           </li>
 
           <li>

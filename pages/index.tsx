@@ -4,7 +4,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Photoshoot from "../components/Photoshoot";
 import styles from "../styles/Home.module.css";
-import { banners } from "../components/more";
+import { banners, photoShoots } from "../components/more";
 
 const Home: NextPage = () => {
   return (
@@ -32,11 +32,21 @@ const Home: NextPage = () => {
           </a>
         </p>
 
-        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
+        <Photoshoot
+          details={{ name: "Graphic Design", images: banners, id: "design" }}
+        />
 
-        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
+        <Photoshoot
+          details={{
+            name: "Photography",
+            images: photoShoots,
+            id: "photography",
+          }}
+        />
 
-        <Photoshoot details={{ name: "Graphic Design", images: banners }} />
+        <Photoshoot
+          details={{ name: "Videography", images: banners, id: "videography" }}
+        />
       </main>
 
       <footer className={styles.footer}>

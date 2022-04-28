@@ -94,6 +94,14 @@
   color: rgb(58, 58, 58);
 }
 
+.description a {
+  color: rgb(0, 0, 129);
+  transition: all, .5s;
+}
+.description a:hover {
+  text-decoration: underline;
+}
+
 .arts {
   display: grid;
   grid-gap: 2rem;
@@ -141,7 +149,21 @@ background: linear-gradient(90deg, rgba(34, 195, 74, 1) 40%, rgba(45, 126, 253, 
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
   }
+
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .artsCont {
+    padding: 2rem .5rem;
+  }
+
+.menu ul {
+  padding: 0;
+}
+
   .arts {
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
