@@ -9,7 +9,7 @@ const Header = () => {
         <div className={styles.logoContainer}>
           <Image
             src="/profile.jpeg"
-            alt="Jay's profile pic"
+            alt="Jays profile pic"
             style={{ borderRadius: "100px", maxWidth: "100%" }}
             layout="fill"
           />

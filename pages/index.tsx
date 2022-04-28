@@ -23,10 +23,10 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Hey, I am Jay</h1>
 
         <p className={styles.description}>
-          Jay is a Graphic designer, Motion graphics developer, Video editor,
-          2D&3D Animator, Photography &Videography. I have over 6 years
-          experience building beautiful graphical tools.
-          <br></br> Hey don't forget to say hi on{" "}
+          Jay is a Graphic designer, Motion graphics developer, Video editor, 2D
+          &apos; 3D Animator, Photography &apos; Videography. I have over 6
+          years experience building beautiful graphical tools.
+          <br></br> Hey don&apos;t forget to say hi on{" "}
           <a href="http://https://www.linkedin.com/in/felix-aryeetey-6a3128201/">
             LinkedIn
           </a>
