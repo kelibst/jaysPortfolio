@@ -7,12 +7,14 @@ const Header = () => {
     <header className={styles.headerContainer}>
       <div className={styles.profileSection}>
         <div className={styles.logoContainer}>
-          <Image
-            src="/profile.jpeg"
-            alt="Jays profile pic"
-            style={{ borderRadius: "100px", maxWidth: "100%" }}
-            layout="fill"
-          />
+          <a href="/profile.jpeg" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/profile.jpeg"
+              alt="Jays profile pic"
+              style={{ borderRadius: "100px", maxWidth: "100%" }}
+              layout="fill"
+            />
+          </a>
         </div>
 
         <h3 className={styles.headerTxt}>Felix Aryeetey</h3>

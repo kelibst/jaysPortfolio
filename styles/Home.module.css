@@ -36,7 +36,7 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 2rem;
   border-top: 1px solid #eaeaea;
   align-items: center;
 }
@@ -108,8 +108,6 @@
 }
 
 .artsCont {
-/* background: rgb(34, 195, 74);
-background: linear-gradient(90deg, rgba(34, 195, 74, 1) 40%, rgba(45, 126, 253, 1) 100%); */
   padding: 4rem 2rem;
 }
 
